@@ -1,50 +1,65 @@
-<!--
- Licensed to the Apache Software Foundation (ASF) under one or more
-  contributor license agreements.  See the NOTICE file distributed with
-  this work for additional information regarding copyright ownership.
-  The ASF licenses this file to You under the Apache License, Version 2.0
-  (the "License"); you may not use this file except in compliance with
-  the License.  You may obtain a copy of the License at
-
-      http://www.apache.org/licenses/LICENSE-2.0
-
-  Unless required by applicable law or agreed to in writing, software
-  distributed under the License is distributed on an "AS IS" BASIS,
-  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  See the License for the specific language governing permissions and
-  limitations under the License.
--->
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<title>Untitled Document</title>
-<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="widht=device-width, initial-scale=1.0">
+    <title>Hello World</title>
 </head>
 
-<body bgcolor="#FFFFFF">
-<p><font color="#0000FF"><a href="servlet/HelloWorldExample"><img src="images/execute.gif" align="right" border="0"></a><a href="index.html"><img src="images/return.gif" width="24" height="24" align="right" border="0"></a></font></p>
-<h3>Source Code for HelloWorld Example<font color="#0000FF"><br>
-  </font> </h3>
-<font color="#0000FF"></font>
-<pre><font color="#0000FF">import</font> java.io.*;
-<font color="#0000FF">import</font> javax.servlet.*;
-<font color="#0000FF">import</font> javax.servlet.http.*;
+<body>
+    <div id="Menu">
+        <ul>
+            <li>Beranda</li>
+            <li>Artikel</li>
+            <li>Contact</li>
+        </ul>
 
-<font color="#0000FF">public class</font> HelloWorld <font color="#0000FF">extends</font> HttpServlet {
+        <h1>Judul</h1>
+        <p>Neo Culture Technology</p>
+    </div>
 
-    <font color="#0000FF">public void</font> doGet(HttpServletRequest request, HttpServletResponse response)
-    <font color="#0000FF">throws</font> IOException, ServletException
-    {
-        response.setContentType(&quot;<font color="#009900">text/html</font>&quot;);
-        PrintWriter out = response.getWriter();
-        out.println(&quot;<font color="#009900">&lt;html&gt;</font>&quot;);
-        out.println(&quot;<font color="#009900">&lt;head&gt;</font>&quot;);
-        out.println(&quot;<font color="#009900">&lt;title&gt;Hello World!&lt;/title&gt;</font>&quot;);
-        out.println(&quot;<font color="#009900">&lt;/head&gt;</font>&quot;);
-        out.println(&quot;<font color="#009900">&lt;body&gt;</font>&quot;);
-        out.println(&quot;<font color="#009900">&lt;h1&gt;Hello World!&lt;/h1&gt;</font>&quot;);
-        out.println(&quot;<font color="#009900">&lt;/body&gt;</font>&quot;);
-        out.println(&quot;<font color="#009900">&lt;/html&gt;</font>&quot;);
-    }
-}</pre>
+    <h1>Hello &#1F293; &#X1f61A;</h1><br>
+    <b>Bold</b><br>
+    <i>Italic</i><br>
+    <small>Small</small><br>
+    <del>Del</del><br>
+    <sup>Superscript</sup><br>
+    <sub>Subscript</sub>
+    
+    <h1 style="color:teal;">Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+
+    <p>Hello World!!!</p>
+
+    <ul>
+        <li>Coding</li>
+        <li>NCT</li>
+        <li>Jaemin</li>
+    </ul>
+
+    <ol type="A">
+        <li>NCT 127</li>
+        <li>NCT Dream</li>
+        <li>WAYV</li>
+    </ol>
+
+    <ul>
+    <li><a href="google.com">Google</a></li>
+    <li><a target="-blank">Kosong</a></li>
+    </ul>
+
+    <img src="https://www.wallpapertip.com/wmimgs/19-194523_gambar-apel-merah-fruit-apple-images-hd.jpg">
+    
+    <picture>
+        <img src="https://www.majalahsains.com/wp-content/uploads/2013/11/buah.jpg">
+            <img src="https://3.bp.blogspot.com/-iDFzhqZ7-kA/V5B2gCe5Z5I/AAAAAAAAATI/JoVqcJwgbxgKcWT9RcK0YCbueyFhSAhgwCLcB/s1600/sayur+sayuran.jpg">
+    </picture> 
+
+    <video src="https://youtu.be/XDnGdcgd3Pc?si=W39rbdkYxMhsOWqi" controls></video>
+
 </body>
 </html>
